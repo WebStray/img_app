@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <label for="quantity_img">
+            Количество картинок
+        </label>
+        <select id="quantity_img">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+        </select>
+        <button id="select">Принять</button>
+        <button id="tableInfoBtn">Отчет</button>
+        <div id="img_wrap"></div>
+        <table id="tableInfo" border="1" cellpadding="5">
+            <tr>
+                <th>Имя</th>
+                <th>Ширина</th>
+                <th>Высота</th>
+                <th>Размер</th>
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
